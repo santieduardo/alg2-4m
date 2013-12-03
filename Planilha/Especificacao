@@ -1,0 +1,57 @@
+Especificação do Trabalho.
+
+Implementar, utilizando a linguagem Java, uma planilha de calculo em modo texto.
+Para isso, voce pode utilizar o codigo que avalia uma expressao aritmetica em
+anexo (o resultado do trabalho sobre Pilhas).
+
+A interface do sistema deve ser criada utilizando-se apenas TEXTO, com toda a
+entrada de dados sendo feita pelo teclado, sem a necessidade de uso do mouse.
+
+Ao exibir a Planilha, a interface do programa deve exibi-la com o seguinte
+formato:
+
+A
+A1: 10.0000		A2:	5.5000
+B
+B2: 1.5000		B2: 3.0000
+C
+C3: 9.0000
+
+Digite a celula: _
+
+Apos o usuario digitar a celula, caso a mesma ja exista, exibir a formula
+associada a celula:
+
+Digitar a celula: C3
+Formula Atual: C3 = (A1 - A2) + (B1 * B2)
+
+Apos mostrar a formula, esperar o usuaria digitar uma nova formula:
+
+Nova formula: C3 = _
+
+Apos a entrada da nova formula, exibir novamente a planilha e esperar pela
+entrada de dados do usuario.
+
+O programa termina quando o usuario digitar "FIM" ao inves de digitar as
+coordenadas de uma celula.
+
+Para implementar a matriz, devem ser utilizadas listas encadeadas, de forma que
+o sistema nao precise disperdicar memoria armazenando todas as posicoes
+possiveis. Apenas as celulas com formulas devem ser armazenadas em memoria.
+
+O programa deve utilizar "pacotes" para a organizacao das classes.
+
+Todas as estruturas de dados utilizadas devem ser implementadas pelo aluno.
+Com excessao dos arrays estaticos (ex. int[]), nao serao aceitas as estruturas
+existentes na linguagem Java.
+
+A entrega deve ser feita via GitHub. Enviar email para
+       rafael.jeffman@gmail.com
+avisando da entrega do trabalho, com o link para o repositorio.
+
+Data de Entrega: 26/11/2013
+Data de Apresentacao: Proxima aula apos a data de entrega.
+
+Boa sorte,
+
+Rafael
